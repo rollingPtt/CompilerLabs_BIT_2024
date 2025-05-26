@@ -8,6 +8,18 @@ All relevant files or code for the compilation principles course(2024) labs
 
 关于代码的解说，可以在 CSDN 上搜索我的主页 “摇摆的小土豆”（其实是一样的
 
+---
+
+关于课程实验的介绍：
+
+今年只有 4 个实验，占课程得分 50 分。
+
+本仓库中存放 4 次实验的题目要求和我的个人思路讲解，如果平台上有提供测试用例的话，我也会一并塞进去。
+
+四个实验的代码行数：
+
+lab1 285行 → lab2 360行 → lab3 590行 → lab4 974行
+
 Last update: 2025/5/26
 
 
