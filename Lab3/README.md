@@ -427,7 +427,7 @@ f ( 1 + 2 , 3 * 4 ,  !  !  5  ,  g  (  6  ,  7  )  )
    然而，假设有两个 `&&` 运算，若将汇编代码写成
 
    ```
-test eax, eax
+   test eax, eax
    jz false
    test ebx, ebx
    jz false
