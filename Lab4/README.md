@@ -62,13 +62,13 @@
 
 ```
 if ( a>3 ) {
-	if ( a<10 ) {
-		println_int(a);
-	}
-	while ( a<b ) {
-		println_int(b);
-		a=a+1;
-	}
+    if ( a<10 ) {
+        println_int(a);
+    }
+    while ( a<b ) {
+        println_int(b);
+        a=a+1;
+    }
 }
 ```
 
@@ -76,16 +76,16 @@ if ( a>3 ) {
 
 ```
 if (a>3) { if (a<10) { println_int(a); } while (a<b) { println_int(b); a=a+1; } }
-         Δ																		Δ
+         Δ			                                                Δ
 ```
 
 是一个句子。在这个句子中，含有两个子句，它们分别是
 
 ```
 if (a<10) { println_int(a); }
-		  Δ					Δ
+          Δ		    Δ
 while (a<b) { println_int(b); a=a+1; }
-			Δ					 	 Δ
+            Δ			     Δ
 ```
 
 对于前者，它又含有一个子句
@@ -117,7 +117,7 @@ a=a+1;
 
 ```
 if ( 表达式 ) {
-	一些句子
+    一些句子
 }
 ```
 
@@ -129,10 +129,10 @@ if ( 表达式 ) {
 
 ```
 if ( 表达式 ) {
-	句子群a
+    句子群a
 }
 else {
-	句子群b
+    句子群b
 }
 ```
 
@@ -146,7 +146,7 @@ else {
 
 ```
 while ( 表达式 ) {
-	一些句子
+    一些句子
 }
 ```
 
@@ -170,12 +170,12 @@ while ( 表达式 ) {
 
 ```
 int bigger(int a, int b) {
-	if (a>b) {
-		return a;
-	}
-	else {
-		return b;
-	}
+    if (a>b) {
+        return a;
+    }
+    else {
+        return b;
+    }
 }
 ```
 
@@ -231,9 +231,9 @@ bigger:
 
    ```
    if (a==b) {
-   	int c;
-   	c = a+b;
-   	println_int(c);
+       int c;
+       c = a+b;
+       println_int(c);
    }
    ```
 
@@ -253,8 +253,8 @@ bigger:
 
    ```
    while ( 条件 ) {
-   	一些语句
-   	return;
+       一些语句
+       return;
    }
    ```
 
@@ -262,10 +262,10 @@ bigger:
 
    ```
    while ( 条件1 ) {
-   	一些语句
-   	if ( 条件2 ) {
-   		return;
-   	}
+       一些语句
+       if ( 条件2 ) {
+           return;
+       }
    }
    ```
 
